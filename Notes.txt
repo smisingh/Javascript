@@ -1,0 +1,41 @@
+
+
+/*************************************
+Best practice to write code
+**************************************/
+1)Clear function & variable name
+2)Avoid comments
+3)Test values
+4)Throw errors
+5)Global functions
+
+/******************************************
+Syntax to write code in Algorithm field
+*******************************************/
+
+fieldToHide#fieldToTest1/value;value2
+		#fieldToTest2/value;different ********* if field is different
+		#fieldToTest/Value;obligatoire ******** if field is mandatory
+		#fieldToTest/Value;null *******field has no value
+		#fieldToTest/Value;null;different *******field is  not null
+
+
+/******************************************
+Check while creating a variable
+******************************************/
+
+1)Test if the field exist => return true
+2)Test if vallue exist => return true
+3) calculcate function=> 1)call previous test function
+						 2)if both are true =>calculate fields
+						 3)retur result
+4)call calculate function on custom field 'integers' and 'decimal' -> use 'set value' to populate
+
+/***********************
+Difference between synchronous and asynchronous JS
+***********************************************/
+
+JS is synchronous javascript  and 
+Ajax is asynchrnonus- set timer, if we want function1() to execute at same time we set setTimeout(function1,1000) and setTimeout(function2,1000)
+Drawback -> if we call a function3() after these two function,if it will execute first
+		we should use -> setTimeout(function2,1000).then(function3());
