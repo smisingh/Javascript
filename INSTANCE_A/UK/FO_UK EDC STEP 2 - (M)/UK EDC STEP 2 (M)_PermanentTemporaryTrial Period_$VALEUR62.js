@@ -1,0 +1,2 @@
+ThisForm.Bind('loadcomplete', checkSelectCode);
+

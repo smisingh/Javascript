@@ -1,0 +1,2 @@
+hideButton();
+defaultProbation();
